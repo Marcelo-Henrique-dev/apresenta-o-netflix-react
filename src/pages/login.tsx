@@ -27,7 +27,7 @@ export const Login = () => {
 
   return (
     <div
-      className={`${styles.bg} absolute w-full h-full flex items-center justify-center `}
+      className={`${styles.bg} absolute w-full h-full flex items-center justify-center after:bg-black after:w-full after:absolute after:h-full after:z-[-1]`}
       id="bg"
     >
       <div

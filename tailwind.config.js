@@ -8,7 +8,7 @@ export default {
     extend: {
       fontFamily: {
         'netflix' : ['Helvetica', 'sans-serif']
-      }
+      },
     },
   },
   plugins: [],

@@ -3,3 +3,12 @@
   background-size: 100% 100%;
   background-position: center;
 }
+
+.bgCriador {
+  background-image: url("../assets/criadorNetflix.png");
+  background-size: 100% 100%;
+  background-position: center;
+  box-shadow: 0px 0px 185px 25px rgba(0, 0, 0, 0.55) inset;
+  -webkit-box-shadow: 0px 0px 185px 25px rgba(0, 0, 0, 0.55) inset;
+  -moz-box-shadow: 0px 0px 185px 25px rgba(0, 0, 0, 0.55) inset;
+}
