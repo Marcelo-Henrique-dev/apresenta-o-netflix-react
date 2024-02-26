@@ -5,8 +5,8 @@ import { useNavigate } from "react-router-dom";
 export const Login = () => {
   const navigate = useNavigate()
   const user = {
-    nome: 'Remo Ferreira',
-    senha: '12345'
+    nome: 'Marcelo Henrique',
+    senha: '125896'
   }
   const [nome, setNome] = useState('')
   const [senha, setSenha] = useState('')
@@ -21,7 +21,7 @@ export const Login = () => {
   function logar(e: React.FormEvent<HTMLButtonElement>) {
     e.preventDefault();
     user.nome == nome && user.senha == senha
-      ? navigate('/home')
+      ? navigate('/alunos')
       : alert('Login ou senha errado')
   }
 

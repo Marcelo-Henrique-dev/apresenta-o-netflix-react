@@ -1,28 +1,14 @@
-import { BiPlus } from "react-icons/bi"
-import { CiMonitor } from "react-icons/ci"
-import { FaHome, FaRandom, FaSearch } from "react-icons/fa"
-import { GrAnalytics } from "react-icons/gr"
-import { PiFilmSlate } from "react-icons/pi"
 import original from '../assets/netflix.svg'
 import imdb from '../assets/imdb.svg'
 import styles from './home.module.css'
 import { SliderReact } from "../layout/sliderReact"
 import { BtnModal } from "../layout/btnModal"
+import { Aside } from "../layout/aside"
 
 export const Home = () => {
     return (
         <section className="w-full h-full flex absolute bg-black" id="home">
-            <aside className="flex flex-col justify-center items-center w-28 p-8" id="menuLateral">
-                <div className="flex flex-col gap-12 text-2xl text-white">
-                    <a target="_blank" href="https://www.figma.com/file/3L5TFJ4WWmg4BzN3qPJaCh/Netflix-Home-Page-desktop-%26-TV-(Community)?type=design&node-id=0-1&mode=design&t=ufwfiW7rITmIC8Up-0"><FaSearch /></a>
-                    <a href="#"><FaHome className="border-b-2 border-red-600" /></a>
-                    <a href="#"><PiFilmSlate /></a>
-                    <a href="#"><CiMonitor /></a>
-                    <a href="#"><GrAnalytics /></a>
-                    <a href="#"><BiPlus /></a>
-                    <a href="#"><FaRandom /></a>
-                </div>
-            </aside>
+            <Aside />
             <div id="content" className="w-full flex flex-col overflow-hidden">
                 <div id="destaque" className="flex justify-between min-h-[400px] w-full">
                     <div id="info" className="p-8 flex flex-col justify-around gap-4">
