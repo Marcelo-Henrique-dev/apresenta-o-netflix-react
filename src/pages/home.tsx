@@ -21,8 +21,8 @@ export const Home = () => {
                         </div>
                         <p className="text-white"><span className="text-red-700 font-bold">2B+</span> Visualizações</p>
                         <div id="btns" className="flex gap-4 py-4">
-                            <BtnModal />
-                            <button className="px-8 py-2 bg-slate-300 text-black rounded-full">Trailer</button>
+                            <BtnModal nome='Play' />
+                            <BtnModal nome='Trailer' />
                         </div>
                     </div>
                     <div id="imgDestaque" className={`${styles.bgCriador} w-[75%]`} />

@@ -11,7 +11,7 @@ export const Streamings = () => {
                 <img className="max-w-80" src={logo} alt="Neflix" />
                 <h1 className="text-white text-2xl font-bold border-b p-4">Streamings de Filmes e Séries</h1>
                 <div className="flex w-full gap-2">
-                    <img className="w-[80%]" src={streams} alt="streamings" />
+                    <img className="w-[70%]" src={streams} alt="streamings" />
                     <ul className="text-white text-xl">
                         <li className="border-b p-4 font-bold text-red-700 text-3xl">Netflix</li>
                         <li className="border-b p-4 font-bold">HBO Max</li>
@@ -19,7 +19,6 @@ export const Streamings = () => {
                         <li className="border-b p-4 font-bold">Disney Plus</li>
                         <li className="border-b p-4 font-bold">AppleTV</li>
                     </ul>
-
                 </div>
             </Container>
         </section>
