@@ -13,7 +13,7 @@ export const Alunos = () => {
     const navigate = useNavigate()
 
     function goHome(){
-        navigate('/home')
+        navigate('/streaming')
     }
 
     return(

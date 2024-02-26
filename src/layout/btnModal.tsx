@@ -1,4 +1,5 @@
 import * as Dialog from "@radix-ui/react-dialog";
+import criadores from '../assets/slides/criadoresNetflix.jpg'
 
 export const BtnModal = () => {
     return (
@@ -15,9 +16,12 @@ export const BtnModal = () => {
                             X
                         </Dialog.Close>
                         <h1 className="text-white text-2xl border-l-2 px-2 py-4 bg-slate-700 font-bold">Fundação</h1>
-                        <p className="text-white text-xl">Reed Hastings e Marc Randolph fundaram a Netflix em 1997. <br />
-                            Inicialmente, a empresa operava como um serviço de aluguel de DVDs online e continua em atualização até hoje.
-                        </p>
+                        <div className="flex gap-2">
+                            <p className="text-white text-xl p-8">Reed Hastings e Marc Randolph fundaram a Netflix em 1997. <br />
+                                Inicialmente, a empresa operava como um serviço de aluguel de DVDs online e continua em atualização até hoje.
+                            </p>
+                            <img className="max-w-[500px] p-4" src={criadores} alt="" />
+                        </div>
                     </div>
                 </div>
             </Dialog.Content>
