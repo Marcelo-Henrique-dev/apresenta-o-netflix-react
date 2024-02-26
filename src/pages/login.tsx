@@ -41,7 +41,7 @@ export const Login = () => {
             onChange={handleChangeNome}
             name="nome"
             className="w-full p-2 bg-gray-800 text-white placeholder:text-gray-500 rounded-md outline-none"
-            placeholder="Email ou telefone"
+            placeholder="Usuário"
           />
           <input
             type="password"
